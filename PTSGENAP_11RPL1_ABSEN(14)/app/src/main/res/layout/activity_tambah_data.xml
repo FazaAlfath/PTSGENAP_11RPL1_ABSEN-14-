@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".tambah_data"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <TextView
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tambah Data"
+        android:textSize="28dp"
+        android:fontFamily="cursive"
+        />
+
+    <EditText
+        android:layout_gravity="center"
+        android:id="@+id/nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/line"
+        android:hint="Nama Barang"
+        android:padding="15dp"
+        android:layout_marginTop="8dp"
+        />
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Kode Barang"
+        android:id="@+id/kode"
+        android:background="@drawable/line"
+        android:padding="15dp"
+        android:layout_marginTop="8dp"
+        />
+    <EditText
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Jenis Barang"
+        android:id="@+id/jenis"
+        android:background="@drawable/line"
+        android:padding="15dp"
+        android:layout_marginTop="8dp"/>
+
+<!--    <EditText-->
+<!--        android:layout_gravity="center"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:hint="Jurusan"-->
+<!--        android:id="@+id/jurusan"-->
+<!--        android:background="@drawable/line"-->
+<!--        android:padding="15dp"-->
+<!--        android:layout_marginTop="8dp"/>-->
+
+    <Button
+        android:layout_gravity="center"
+        android:id="@+id/btn_tambah"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/line2"
+        android:hint="Tambah Barang"
+        android:textColorHint="@color/colorAccent" />
+</LinearLayout>
